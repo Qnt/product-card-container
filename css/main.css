@@ -1,5 +1,4 @@
-@import url("https://fonts.google.com/specimen/Montserrat");
-@import url("https://fonts.google.com/specimen/Fraunces");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&display=swap');
 
 *, a{
    font-family: 'Montserrat', sans-serif;
@@ -37,11 +36,11 @@ body{
 
 .product-card-header h2 {
     color: hsl(228, 12%, 48%);
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .product-card-header h1 {
@@ -70,7 +69,7 @@ body{
     grid-template-columns: repeat(2, 150px);
     justify-content: start;
     margin-top: 20px;
-    margin-bottom: 8px
+    margin-bottom: 20px;
 }
 
 .product-card-price .product-card-price-current p{    
@@ -86,7 +85,6 @@ body{
 }
 
 .product-card-button{
-    /* cursor: pointer; */
     align-items: center;
     background-color: hsl(158, 36%, 37%);
     border-radius: 8px;
@@ -99,7 +97,8 @@ body{
 }
 
 .product-card-button:hover{
-    background-color: hsl(158, 53%, 59%);
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
 }
 
 .product-card-button .product-card-button-pd{
@@ -131,22 +130,22 @@ body{
         margin-top: 150px;
         margin-bottom: auto;
    }
+
    .product-card-image{
         width: 300px;
         height: 450px;
         border-radius: 10px 0px 0px 10px;
         background-image: url("../img/image-product-desktop.jpg");
    }
+
    .product-card-content{
-        margin: 40px 30px;
+        margin: 30px;
         max-width: 250px;
    }
-   .product-card-description p{
-        margin-right: 40px;
-   }
+
    .product-card-button{
         width: 240px;
-        margin-top: 20px;
+        margin-top: 16px;
         padding-left: 60px;
         padding-right: 60px;
    }
